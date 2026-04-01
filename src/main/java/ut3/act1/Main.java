@@ -14,7 +14,7 @@ public class Main {
         while (!juegoFinalizado) {
             Scanner sc = new Scanner(System.in);
             String estado = "nulo";
-            // Creamos el cliente del juego
+            // Creamos el cliente de juego
             Cliente cliente = new Cliente(DIRECCION, PUERTO);
 
             /*
