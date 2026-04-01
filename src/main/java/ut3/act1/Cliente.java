@@ -24,6 +24,7 @@ public class Cliente {
     public Cliente(String direccion, int puerto) {
         this.direccion = direccion;
         this.puerto = puerto;
+        this.estado = "nulo";
 
         // Declaramos los valores máximos y minimos
         min = 1;
