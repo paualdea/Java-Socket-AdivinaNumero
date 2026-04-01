@@ -33,18 +33,17 @@ public class Main {
                 // Hacemos jugar al cliente
                 cliente.jugar();
                 // Ponemos una breve pausa de 250ms
-                Thread.sleep(250);
+                Thread.sleep(500);
 
                 // Obtenemos el estado del juego basado en la respuesta del servidor al cliente
                 estado = cliente.getEstado();
             }
 
             // Paramos el juego 2 segundos
-            Thread.sleep(2000);
-            limpiarPantalla();
+            Thread.sleep(1250);
 
             // Preguntamos si queremos seguir jugando
-            System.out.print("\n.:VOLVER A JUGAR:.\n\n1. SI\n2. NO\n\nOpción: ");
+            System.out.print("\nVOLVER A JUGAR: 1. SI | 2. NO: ");
             String opcion = sc.nextLine();
 
             // Si no se quiere seguir jugando, salir del bucle y terminal el programa
